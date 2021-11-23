@@ -1,10 +1,7 @@
 # main links links
 main:
   - title: "Journal Club"
-    url: /publications/
-
-  - title: "Publications"
-    url: /publications/
+    url: /journalclub/
 
   - title: "Participants"
     url: /participants/ 
