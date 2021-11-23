@@ -83,7 +83,7 @@ author:
   name             : "Euskomics"
   avatar           : "profile.png"
   bio              : "What is this journal club about"
-  location         : "Location"
+  location         : "Basque Country"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=00sB2dwAAAAJ&hl"
@@ -181,6 +181,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  journalclub:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -218,10 +221,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _past
+  # _publications
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _journalclub
+  - scope:
+      path: ""
+      type: journalclub
     values:
       layout: single
       author_profile: true

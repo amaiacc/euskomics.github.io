@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Journal Club"
+permalink: /journalclub/
 author_profile: true
 ---
 

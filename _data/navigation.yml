@@ -1,17 +1,15 @@
 # main links links
 main:
+  - title: "Journal Club"
+    url: /publications/
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/ 
+  - title: "Participants"
+    url: /participants/ 
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
+  - title: "About"
+    url: /about/
+
 
