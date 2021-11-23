@@ -9,9 +9,9 @@
 locale                   : "en-US"
 title                    : "Euskomics"
 title_separator          : "-"
-name                     : &name "Amaia Carrión Castillo"
+name                     : &name ""
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://euskomics.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "amaiacc/euskomics.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Euskomics"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "What is this journal club about"
   location         : "Location"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=00sB2dwAAAAJ&hl"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "amaiacc/euskomics.github.io"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "amaia_cc"
   vine             :
   weibo            :
   xing             :
@@ -218,7 +218,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _past
   - scope:
       path: ""
       type: publications
@@ -309,3 +309,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# try to fix error: https://github.com/github/pages-gem/issues/399
+github: [metadata]
